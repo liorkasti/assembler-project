@@ -1,0 +1,56 @@
+#define NOT_EXIST -1
+#define EXIST 1
+#define TRUE 1
+#define FALSE 0
+#define SUCCESS 1
+#define FAIL 0
+#define ERROR -1
+#define FIRST_PASS 1
+#define SECOND_PASS 2
+#define SOURCE 1
+#define DEST 2
+#define UNKNOWN_TYPE 0
+#define SYMBOL 1
+#define VIRTUAL_INSTRUCTION 2
+#define DATA 16
+#define STRING 17
+#define ENTRY 3
+#define EXTERN 4
+#define COMMAND 5
+#define MAX_WORD 20
+#define MAX_LINE 200
+#define MAX_ERROR_MSG 200
+#define BASE_ADDRESS 100
+
+#define PRN 12
+#define JSR 13
+
+#define EVERY_METHOD 1
+#define ONLY_DIRECT 2
+#define DIRECT_INDEX_REG 3
+#define INVALID_ADDRESSING -1
+#define IMMEDIATE_ADDRESSING 0
+#define DIRECT_REG_ADDRESSING 3
+#define DYNAMIC_ADDRESSING 2
+#define DYNAMIC_ADDRESSING_WITH_ERROR 4
+#define DIRECT_ADDRESSING 1
+#define MAX_NUMBER_POSITIVE 524288
+#define MAX_NUMBER_NEGATIVE -524287
+
+
+#define NUMBER_OF_COMMANDS 14/*without the rts and stop*/
+#define NUMBER_OF_REGISTERS 8
+#define MAX_SYMBOLS 2000
+#define MAX_SYMBOL_LEN 30
+#define SYMBOL_EXISTS 2
+#define	NO_SUCH_SYMBOL -1
+#define UNLABLED_ENTRY_COMMAND 3
+#define IS_EXTERN 4
+#define MAX_ARG_SIZE 30
+#define MAX_ENTRIES 2000
+#define MAX_EXTERNALS 2000
+#define MAX_MEM_SIZE 2000
+#define DATA_SYMBOL "data"
+#define CODE_SYMBOL "code"
+
+
